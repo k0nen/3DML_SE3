@@ -22,7 +22,7 @@ easydict
 - N-body: Make sure you have two files `data/nbody_train.pkl` and `data/nbody_test.pkl`, which can be downloaded from [here](https://drive.google.com/drive/folders/1OrVxlTjdkjMpduZ3XnjdsbNWkp5DFpZ7?usp=sharing)
 - QM9: The dataset is automatically downloaded upon running `preprocess_qm9.py`.
 
-## List of improvements
+## List of improvements (of our own)
 
 ### Fused Key/Value computation
 
