@@ -1,8 +1,10 @@
 # 3DML project: SE(3)-Transformers
 
-## Use of existing code
+## Disclaimer: Use of existing public code
 
 We partially modified the [NVIDIA's implementation](https://github.com/NVIDIA/DeepLearningExamples/blob/master/DGLPyTorch/DrugDiscovery/SE3Transformer/se3_transformer/model/basis.py) of basis pre-computation into `dataloader/basis.py` of our code, as it supports JIT compile support for faster computation.
+
+The network module class structure and arguments are borrowed from the [author's official code](https://github.com/FabianFuchsML/se3-transformer-public).
 
 ## Requirements
 
