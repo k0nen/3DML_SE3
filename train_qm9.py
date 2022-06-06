@@ -163,9 +163,9 @@ if __name__ == "__main__":
     args.train_data_dir = "./data"
     args.val_data_dir = "./data"
     args.test_data_dir = "./data"
-    args.train_basis_dir = "/data2/3dml_se3/basis/qm9_basis_train.pkl"
-    args.val_basis_dir = "/data2/3dml_se3/basis/qm9_basis_val.pkl"
-    args.test_basis_dir = "/data2/3dml_se3/basis/qm9_basis_test.pkl"
+    args.train_basis_dir = "./basis/qm9_basis_train.pkl"
+    args.val_basis_dir = "./basis/qm9_basis_val.pkl"
+    args.test_basis_dir = "./basis/qm9_basis_test.pkl"
     args.best_save_name = "./data/qm9_best_homo_run2.pt"
 
     args.task_idx = 2
