@@ -140,11 +140,10 @@ class GraphCat(nn.Module):
     def forward(self, f1, f2):
         out = {}
         for k, v in f1.items():
-            key_str = f"{k}"
-            if key_str in f2:
-                out[key_str] = torch.cat([f1[key_str], f2[key_str]], 1)
+            if f"{k}" in f2:
+                out[f"{k}"] = torch.cat([f1[f"{k}"], f2[f"{k}"]], 1)
             else:
-                out[key_str] = f1[key_str]
+                out[f"{k}"] = f1[f"{k}"]
         return out
 
 

@@ -76,5 +76,5 @@ Pretrained models are available via Google Drive.
 
 ## References
 
-- [Authors' official code]()
-- [NVIDIA's implementation]()
+- [Authors' official code](https://github.com/FabianFuchsML/se3-transformer-public)
+- [NVIDIA's implementation](https://github.com/NVIDIA/DeepLearningExamples/tree/master/DGLPyTorch/DrugDiscovery/SE3Transformer)
