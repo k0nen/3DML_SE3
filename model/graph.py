@@ -83,6 +83,7 @@ class GraphNormBias(nn.Module):
     """
     Norm-based SE(3)-equivariant nonlinearity.
     This module will re-scale each feature vector by a function of the feature's norm.
+    The exact formulation is available in Eq. (52) of the paper's supplementary material.
     """
 
     def __init__(self, shape_in: dict, batchnorm: bool = False):
